@@ -1,0 +1,50 @@
+body{
+  background-color: #2196f3;
+}
+
+.list, .new-list{
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+.list h2{
+  height: 1.2em;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.list .todos{
+  height: 90vh;
+}
+
+.container{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.infinite-width{
+  white-space: nowrap;
+}
+
+.infinite-width > div, .new-list{
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  margin-right: 1em;
+}
+
+.new-list input[type="submit"]{
+  margin-top: 10px;
+}
+
+.card{
+  padding: 10px;
+  background-color: white;
+  margin-top: 8px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-hide{
+  display: none;
+}
